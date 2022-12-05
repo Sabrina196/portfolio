@@ -1,0 +1,47 @@
+header{
+    background-image: linear-gradient(to top, rgba(9, 32, 63, 0.8) 0%, rgba(83, 120, 149, 0.8) 100%), url(./img/portada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.centrado{
+    margin: 20vh auto; 
+}
+
+.imgPerfil{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.color{
+    background-color: black;
+}
+
+.espacio_footer {
+    padding: 8px 0;
+}
+
+.imgCarrousel{
+    height: 400px;
+    object-fit: contain;
+}
+
+.wave {
+    height: 200px; 
+    overflow: hidden;
+}
+
+svg {
+    height: 100%; 
+    width: 100%;
+}
+
+path {
+    stroke: none; 
+    fill: #fff;
+}
+
