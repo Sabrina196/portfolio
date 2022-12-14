@@ -45,3 +45,6 @@ path {
     fill: #fff;
 }
 
+.caja2, .caja3{
+    display: none;
+}
