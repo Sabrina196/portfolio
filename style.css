@@ -22,12 +22,16 @@ header{
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
 }
 
-/*Img Perfil*/
+/*Imagenes*/
 .imgPerfil{
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.imgDisenio{
+    width: 100%;
 }
 
 .color{
