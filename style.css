@@ -1,3 +1,7 @@
+main{
+    color: #fff;
+}
+
 header{
     background-image: linear-gradient(to top, rgba(9, 32, 63, 0.8) 0%, rgba(83, 120, 149, 0.8) 100%), url(./img/portada2.jpg);
     background-repeat: no-repeat;
@@ -10,6 +14,15 @@ header{
     margin: 20vh auto; 
 }
 
+.contenedor1, .contenedor3{
+    background: #222;
+}
+
+.contenedor2, .contenedor4{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+/*Img Perfil*/
 .imgPerfil{
     width: 180px;
     height: 180px;
@@ -21,30 +34,37 @@ header{
     background-color: black;
 }
 
-.espacio_footer {
-    padding: 8px 0;
-}
-
+/*Ola*/
 .imgCarrousel{
     height: 400px;
     object-fit: contain;
 }
-
 .wave {
     height: 200px; 
     overflow: hidden;
 }
-
 svg {
     height: 100%; 
     width: 100%;
 }
-
 path {
     stroke: none; 
-    fill: #fff;
+    fill: #222;
 }
 
+/*Cajas Ocultas*/
 .caja2, .caja3{
     display: none;
+}
+
+/*Logos*/
+.logos{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/*Footer*/
+.espacio_footer {
+    padding: 8px 0;
 }

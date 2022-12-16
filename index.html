@@ -14,7 +14,7 @@
     <!--Header-->
     <header id="inicio"> 
       <!--Nav-->  
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="principio">
         <div class="container">
           <a class="navbar-brand" href="#">Mi Perfil</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,9 +61,10 @@
     </header>
 
     <main>  
+      <div class="contenedor1">
         <!--First Carrousel-->
-        <div class="container pt-5">
-          <div class="row justify-content-between" id="proyectos">
+        <div class="container pt-5 pb-3" >
+          <div class="row justify-content-between pb-5" id="proyectos">
             <div class="col-xl-6">
               <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -93,7 +94,7 @@
                 </button>
               </div>
             </div>
-            
+
             <div class="col mt-4">           
               <h2><i class="fa-solid fa-laptop-code me-2"></i></i>Win Forms y SQL Server</h2>
               <p>Se trata de una aplicacion de escritorio para gestionar los artículos de un comercio. Cada articulo tiene su marca y pertenece a una categoría.Es un CRUD básico para
@@ -102,15 +103,18 @@
                 <i class="fa-solid fa-paperclip m-1"></i>  Lenguaje C#<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Sql Server<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Arquitectura en capas: Dominio, Negocio, Vistas<br>
-                
               </p>
-              <button class="btn btn-primary btn-sm" type="button">Probar con Simulador</button>
             </div>
           </div>
-        </div>
-        <!--Second Carrousel-->
-        <div class="container pt-5 pb-5 mt-5">
-          <div class="row mt-5 justify-content-between">
+        </div>          
+      </div>
+
+      <!--Second Carrousel-->
+      <div class="contenedor2">
+        <!--Container with 1 row: 2 column-->
+        <div class="container pt-5 pb-5">
+          <div class="row mt-5 justify-content-between pb-3">
+
             <div class="col mt-4 mb-4" id="proyectos">           
               <h2><i class="fa-solid fa-laptop-code me-2"></i>ASP.NET Core 5 MVC y Entity Framework</h2>
               <p>Una aplicación Web para poder crear distintos cursos, cada uno de ellos con un listado de alumnos y sus notas.Esta aplicacion Web está realizada con:<br><br>
@@ -120,7 +124,7 @@
                 <i class="fa-solid fa-paperclip m-1"></i>  Lenguaje C#<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  localDB<br>
               </p>
-              <button class="btn btn-primary btn-sm" type="button">Probar con Simulador</button>
+              <a class="btn btn-primary btn-sm" href="#principio">Volver al Inicio<i class="fa-solid fa-circle-up m-2"></i></a>  
             </div>
 
             <div class="col-xl-6 mt-3">
@@ -156,45 +160,91 @@
               </div>
             </div>
           </div>
-        </div>
-        
-        <!--About me-->
-        <div class="container mt-5 mb-5" id="Acerca de mí">
-          <h2 class="text-center mb-3">Acerca de mí</h2>
-          <div class="row justify-content-between">
-            <div class="col-md-4 align-self-center">
-              <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-primary btn-sm" type="button" id="academico" value="1">Académico</button>
-                <button class="btn btn-primary btn-sm" type="button" id="intereses" value="2">Intereses</button>
-                <button class="btn btn-primary btn-sm" type="button" id="habilidades" value="3">Habilidades</button>
-              </div>
+        </div> 
+        <!--Wave-->
+        <div class="ola">
+            <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path id="path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
+        </div>          
+      </div>
+      
+      <!--Designer-->
+      <div class="contenedor3">
+        <div class="container pb-5" >
+          <div class="row justify-content-between" id="proyectos">
+            <div class="col align-self-center">
+              <img src="./img/diseño.png" alt="Diseño">
             </div>
-            <div class="col-md-6 align-self-center">
-              <section class="caja1">
-                <h4 class="text-center mt-3">Académico</h4>
-                <p>Finalicé mis estudios en el "ISFT N°179 "Dr. Carlos Pellegrini"  en el año 2022 en la Tecnicatura Superior en Análisis de Sistemas y comencé a profundizarme en el ámbito del desarrollo, ya que me apasiona poder encontrar y analizar soluciones y poder codificarlo en algún lenguaje de programación.</p>
-              </section>
-              <section class="caja2">
-                <h4 class="text-center mt-3">Intereses</h4>
-                <p>Me encantaría formar parte como desarrolladora Backend con .NET en un equipo, para poder brindar soluciones reales.Cuento con experiencia de administrativa y aprendí la gran importancia de trabajar en equipo, ya que hacen mucho más eficiente y rápido cualquier proceso.</p>
-              </section>
-              <section class="caja3">
-                <h4 class="text-center mt-3">Habilidades</h4>
-                <p>En cuanto a las tecnologias o lenguajes que utilice en mis diferentes proyectos, fueron los siguientes:<br>
-                </p>
-              </section>
+
+            <div class="col align-self-center">           
+              <h2><i class="fa-regular fa-object-group me-2"></i>Diseño Minimalista</h2>
+              <p>Si bien, mi enfoque está orientado al backend, me surgió la idea de crear una página Web Dinámica de un centro de estética, que todavía no se encuentra terminado pero la idea es mostrar un poco el diseño, realizado con:<br><br>
+                <i class="fa-solid fa-paperclip m-1"></i>  HTML 5<br>
+                <i class="fa-solid fa-paperclip m-1"></i>  Bootstrap 5<br>
+                <i class="fa-solid fa-paperclip m-1"></i>  CSS3<br>
+                <i class="fa-solid fa-paperclip m-1"></i>  Javascript<br>
+                
+              </p>
+              <a class="btn btn-primary mt-1" href="https://sabrina196.github.io/Estetica/index.html" target="_blank" >Ir a Sitio</a>
             </div>
           </div>
-        </div>
+        </div>           
+      </div>
 
-        <footer class="espacio_footer bg-dark text-center"> 
-          <span class="text-center">
-            <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
-            <a href="https://github.com/Sabrina196" target="_blank"><i class="fa-brands fa-lg fa-github"></i></i></a>
-          </span>
-        </footer>
+
+
+      <!--About me-->
+      <div class="contenedor4 pt-5 pb-5">
+        <!--Container with 1 row: 2 column-->
+        <div class="container" id="Acerca de mí">
+            <h2 class="text-center mb-5"><i class="fa-regular fa-id-card me-2"></i>Acerca de mí</h2>
+            <div class="row justify-content-between">
+              <div class="col-md-4 align-self-center mb-2">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary btn-sm" type="button" id="academico" value="1">Académico</button>
+                  <button class="btn btn-primary btn-sm" type="button" id="intereses" value="2">Intereses</button>
+                  <button class="btn btn-primary btn-sm" type="button" id="habilidades" value="3">Habilidades</button>
+                  
+                </div>
+              </div>  
+              <div class="col-md-6 align-self-center pt-3">
+                <section class="caja1">
+                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Académico</h4>
+                  <p class="text-justify">Finalicé mis estudios en el "ISFT N°179 "Dr. Carlos Pellegrini" en el año 2022 en la Tecnicatura Superior en Análisis de Sistemas y comencé a profundizarme en el ámbito del desarrollo, ya que me apasiona poder encontrar y analizar soluciones para luego codificarlo en algún lenguaje de programación.</p>
+                </section>
+                <section class="caja2">
+                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Intereses</h4>
+                  <p class="text-justify">Me encantaría formar parte como desarrolladora Backend con .NET en un equipo, para poder brindar soluciones reales. Cuento con experiencia de administrativa y aprendí la gran importancia de trabajar en equipo, ya que hace mucho más eficiente y ágil cualquier proceso.</p>
+                </section>
+                <section class="caja3">
+                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Habilidades</h4>
+                  <p class="text-justify">En cuanto a las tecnologias o lenguajes que utilice en mis diferentes proyectos, fueron los siguientes:<br>
+                    <img class="logos m-2" src="./img/html.png" alt="Html">
+                    <img class="logos m-2" src="./img/css3.png" alt="Css3">
+                    <img class="logos m-2" src="./img/js.png" alt="Javascript">
+                    <img class="logos m-2" src="./img/csharp.png" alt="C#">
+                    <img class="logos m-2" src="./img/framework.png" alt=".NET Framework">
+                    <img class="logos m-2" src="./img/core.png" alt=".NET Core">
+                    <img class="logos m-2" src="./img/sql.png" alt="SQL Server">
+                    <img class="logos m-2" src="./img/git.png" alt="Git">
+                  </p>
+                </section>
+                <a class="btn btn-primary btn-sm mt-4" href="#principio">Volver al Inicio<i class="fa-solid fa-circle-up ms-2"></i></a>  
+              </div>
+            </div>
+          </div>       
+      </div>
+
+
       
     </main>
+
+    <!--Footer-->
+    <footer class="espacio_footer bg-dark text-center"> 
+      <span class="text-center">
+        <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
+        <a href="https://github.com/Sabrina196" target="_blank"><i class="fa-brands fa-lg fa-github"></i></i></a>
+      </span>
+    </footer>
 
     <script src="./bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
