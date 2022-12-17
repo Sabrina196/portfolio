@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main{
     color: #fff;
 }
@@ -7,7 +13,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position:center;
+    background-position:center center;
 }
 
 .centrado{
@@ -20,6 +26,12 @@ header{
 
 .contenedor2, .contenedor4{
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+/*Items*/
+.items{
+    display:inline-block;
+    width: auto;
 }
 
 /*Imagenes*/
@@ -51,6 +63,7 @@ svg {
     height: 100%; 
     width: 100%;
 }
+
 path {
     stroke: none; 
     fill: #222;

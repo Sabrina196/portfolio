@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,25 +16,25 @@
       <!--Nav-->  
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="principio">
         <div class="container">
-          <a class="navbar-brand" href="#">Mi Perfil</a>
+          <a class="navbar-brand" title="Perfil" href="#">Mi Perfil</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                <a class="nav-link active" title="Inicio" aria-current="page" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link" title="Proyectos" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Acerca de mí">Acerca de mí</a>
+                <a class="nav-link" title="Información" href="#Acerca_de_mi">Acerca de mí</a>
               </li>
             </ul>
             <span class="navbar-text me-4">
-              <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
-              <a href="https://github.com/Sabrina196" target="_blank"><i class="fa-brands fa-lg fa-github"></i></i></a>
+              <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" title="logoLinkedin" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
+              <a href="https://github.com/Sabrina196" title="logoGithub" target="_blank"><i class="fa-brands fa-lg fa-github"></i></a>
             </span>
           </div>
         </div>
@@ -43,20 +43,20 @@
       <div class="container centrado"> 
         <div class="row">
           <div class="col-sm-6 text-center">            
-            <img  class="imgPerfil" src="./img/sabriDeveloper.jpg"  alt="Sabri Developer">           
+            <img  class="imgPerfil mb-4" src="./img/sabriDeveloper.jpg" loading="lazy" alt="Sabri Developer">           
           </div>
-          <div class="col-sm-6">
-            <div class="container text-light">              
+          <div class="col-sm-6 align-self-center">
+            <div class="container text-light text-center">              
               <h1><i class="fa-solid fa-code-simple"></i>Developer Backend <i class="fa-solid fa-code"></i></h1>
               <h2>Hola, Soy Sabrina:</h2>
-              <P class="mt-3 fw-bold">Técnica en Análisis de Sistemas y desarrolladora Backend con C# .NET.</P>
+              <p class="mt-3 fw-bold">Técnica en Análisis de Sistemas y desarrolladora Backend con C# .NET.</p>
             </div>
           </div>
         </div>
       </div>
       <!--Wave-->
       <div class="ola">
-        <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path id="path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
+        <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path class="path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
       </div>
     </header>
 
@@ -72,19 +72,19 @@
               <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./img/winForms1.png" class="d-block w-100 imgCarrousel" alt="Imagen1 Proyecto WinForms">
+                    <img src="./img/winForms1.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Imagen1 Proyecto WinForms">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/winForms2.png" class="d-block w-100 imgCarrousel" alt="Imagen2 Proyecto WinForms">
+                    <img src="./img/winForms2.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Imagen2 Proyecto WinForms">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/winForms3.png" class="d-block w-100 imgCarrousel" alt="Imagen3 Proyecto WinForms">
+                    <img src="./img/winForms3.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Imagen3 Proyecto WinForms">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/winForms4.png" class="d-block w-100 imgCarrousel" alt="Imagen4 Proyecto WinForms">
+                    <img src="./img/winForms4.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Imagen4 Proyecto WinForms">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/winFormsDiagramaBD.png" class="d-block w-100 imgCarrousel" alt="Diagrama de Base de Datos WinForms">
+                    <img src="./img/winFormsDiagramaBD.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Diagrama de Base de Datos WinForms">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouse1" data-bs-slide="prev">
@@ -99,10 +99,10 @@
             </div>
             <!--Col2-->
             <div class="col mt-4">           
-              <h2><i class="fa-solid fa-laptop-code me-2"></i></i>Win Forms y SQL Server</h2>
+              <h2 class="mb-4"><i class="fa-solid fa-laptop-code me-2"></i>Win Forms y SQL Server</h2>
               <p>Se trata de una aplicacion de escritorio para gestionar los artículos de un comercio. Cada articulo tiene su marca y pertenece a una categoría.Es un CRUD básico para
-                ver crear, modificar y eliminar articulos, categorias y marcas. Está aplicación esta realizada:<br><br>
-                <i class="fa-solid fa-paperclip m-1"></i>  .Net Framework 4.8<br>
+                ver crear, modificar y eliminar articulos, categorias y marcas. Está aplicación esta realizada:<br>
+                <i class="fa-solid fa-paperclip m-1 mt-4"></i>  .Net Framework 4.8<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Lenguaje C#<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Sql Server<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Arquitectura en capas: Dominio, Negocio, Vistas<br>
@@ -119,10 +119,10 @@
           <!--Row-->
           <div class="row mt-5 justify-content-between pb-3">
             <!--Col1-->
-            <div class="col mt-4 mb-4" id="proyectos">           
-              <h2><i class="fa-solid fa-laptop-code me-2"></i>ASP.NET Core 5 MVC y Entity Framework</h2>
-              <p>Una aplicación Web para poder crear distintos cursos, cada uno de ellos con un listado de alumnos y sus notas.Esta aplicacion Web está realizada con:<br><br>
-                <i class="fa-solid fa-paperclip m-1"></i>  .Net Core 5<br>
+            <div class="col mt-4 mb-4">           
+              <h2 class="mb-4"><i class="fa-solid fa-laptop-code me-2"></i>ASP.NET Core 5 MVC y Entity Framework</h2>
+              <p>Una aplicación Web para poder crear distintos cursos, cada uno de ellos con un listado de alumnos y sus notas.Esta aplicacion Web está realizada con:<br>
+                <i class="fa-solid fa-paperclip m-1 mt-4"></i>  .Net Core 5<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Arquitectura MVC<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Entity Framework<br>                
                 <i class="fa-solid fa-paperclip m-1"></i>  Lenguaje C#<br>
@@ -136,22 +136,22 @@
               <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./img/asp.netCore5-1.png" class="d-block w-100  imgCarrousel" alt="Imagen1 Proyecto asp.net Core5">
+                    <img src="./img/asp.netCore5-1.png" class="d-block w-100  imgCarrousel" loading="lazy" alt="Imagen1 Proyecto asp.net Core5">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/asp.netCore5-2.png" class="d-block w-100  imgCarrousel" alt="Imagen2 Proyecto asp.net Core5">
+                    <img src="./img/asp.netCore5-2.png" class="d-block w-100  imgCarrousel" loading="lazy" alt="Imagen2 Proyecto asp.net Core5">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/asp.netCore5-3.png" class="d-block w-100  imgCarrousel" alt="Imagen1 Proyecto asp.net Core5">
+                    <img src="./img/asp.netCore5-3.png" class="d-block w-100  imgCarrousel" loading="lazy" alt="Imagen3 Proyecto asp.net Core5">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/asp.netCore5-4.png" class="d-block w-100  imgCarrousel" alt="Imagen1 Proyecto asp.net Core5">
+                    <img src="./img/asp.netCore5-4.png" class="d-block w-100  imgCarrousel" loading="lazy" alt="Imagen4 Proyecto asp.net Core5">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/asp.netCore5-5.png" class="d-block w-100  imgCarrousel" alt="Imagen1 Proyecto asp.net Core5">
+                    <img src="./img/asp.netCore5-5.png" class="d-block w-100  imgCarrousel" loading="lazy" alt="Imagen5 Proyecto asp.net Core5">
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/asp.netCore5DiagramaBD.png" class="d-block w-100 imgCarrousel" alt="Diagrama de Base de Datos ASP.NETCORE5">
+                    <img src="./img/asp.netCore5DiagramaBD.png" class="d-block w-100 imgCarrousel" loading="lazy" alt="Diagrama de Base de Datos ASP.NETCORE5">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
@@ -168,7 +168,7 @@
         </div> 
         <!--Wave-->
         <div class="ola">
-            <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path id="path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
+            <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none"><path class="path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
         </div>          
       </div>
       
@@ -176,21 +176,21 @@
       <div class="contenedor3">
         <div class="container pb-5" >
           <!--Row-->
-          <div class="row justify-content-between" id="proyectos">
+          <div class="row justify-content-between">
             <!--Col1-->
             <div class="col-md-6 align-self-center">            
-              <img class="imgDisenio" src="./img/diseño.png" alt="Diseño">             
+              <img class="imgDisenio" src="./img/diseño.png" loading="lazy" alt="Diseño">             
             </div>
             <!--Col2-->
             <div class="col-md-6 align-self-center">           
-              <h2><i class="fa-regular fa-object-group me-2"></i>Diseño Web Minimalista</h2>
-              <p>Si bien, mi enfoque está orientado al backend, me surgió la idea de crear una página Web Dinámica de un centro de estética, todavía no se encuentra terminada, pero la idea es mostrar un poco el diseño.Esta página esta realizada con:<br><br>
-                <i class="fa-solid fa-paperclip m-1"></i>  HTML 5<br>
+              <h2 class="mb-4"><i class="fa-regular fa-object-group me-2"></i>Diseño Web Minimalista</h2>
+              <p>Si bien, mi enfoque está orientado al backend, me surgió la idea de crear una página Web Dinámica de un centro de estética, todavía no se encuentra terminada, pero la idea es mostrar un poco el diseño.Esta página esta realizada con:<br>
+                <i class="fa-solid fa-paperclip m-1 mt-4"></i>  HTML 5<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Bootstrap 5<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  CSS3<br>
                 <i class="fa-solid fa-paperclip m-1"></i>  Javascript<br> 
               </p>
-              <a class="btn btn-primary mt-1" href="https://sabrina196.github.io/Estetica/index.html" target="_blank" >Ir a Sitio</a>
+              <a class="btn btn-primary mt-1" href="https://sabrina196.github.io/Estetica/index.html" title="PáginaEstética" target="_blank" >Ir a Sitio</a>
             </div>
           </div>
         </div>           
@@ -199,8 +199,8 @@
       <!--About me-->
       <div class="contenedor4 pt-5 pb-5">
         <!--Container with 1 row: 2 column-->
-        <div class="container" id="Acerca de mí">
-            <h2 class="text-center mb-5"><i class="fa-regular fa-id-card me-2"></i>Acerca de mí</h2>
+        <div class="container" id="Acerca_de_mi">
+            <h3 class="text-center mb-5"><i class="fa-regular fa-id-card me-2"></i>Acerca de mí</h3>
             <div class="row justify-content-between">
               <!--Col1-->
               <div class="col-md-4 align-self-center mb-2">
@@ -214,27 +214,27 @@
               <div class="col-md-6 align-self-center pt-3">
                 <!--Section-->
                 <section class="caja1">
-                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Académico</h4>
+                  <h4 class="text-center mb-3"><i class="fa-brands fa-sketch me-2"></i>Académico</h4>
                   <p class="text-justify">Finalicé mis estudios en el "ISFT N°179 "Dr. Carlos Pellegrini" en el año 2022 en la Tecnicatura Superior en Análisis de Sistemas y comencé a profundizarme en el ámbito del desarrollo, ya que me apasiona poder encontrar y analizar soluciones para luego codificarlo en algún lenguaje de programación.</p>
                 </section>
                 <section class="caja2">
-                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Intereses</h4>
+                  <h4 class="text-center mb-3"><i class="fa-brands fa-sketch me-2"></i>Intereses</h4>
                   <p class="text-justify">Me encantaría formar parte como desarrolladora Backend con .NET en un equipo, para poder brindar soluciones reales. Cuento con experiencia de administrativa y aprendí la gran importancia de trabajar en equipo, ya que hace mucho más eficiente y ágil cualquier proceso.</p>
                 </section>
                 <section class="caja3">
-                  <h4 class="text-center"><i class="fa-brands fa-sketch me-2"></i>Habilidades</h4>
-                  <p class="text-justify">En cuanto a las tecnologias o lenguajes que utilice en mis diferentes proyectos, fueron los siguientes:<br>
-                    <img class="logos m-2" src="./img/html.png" alt="Html">
-                    <img class="logos m-2" src="./img/css3.png" alt="Css3">
-                    <img class="logos m-2" src="./img/js.png" alt="Javascript">
-                    <img class="logos m-2" src="./img/csharp.png" alt="C#">
-                    <img class="logos m-2" src="./img/framework.png" alt=".NET Framework">
-                    <img class="logos m-2" src="./img/core.png" alt=".NET Core">
-                    <img class="logos m-2" src="./img/sql.png" alt="SQL Server">
-                    <img class="logos m-2" src="./img/git.png" alt="Git">
+                  <h4 class="text-center mb-3"><i class="fa-brands fa-sketch me-2"></i>Habilidades</h4>
+                  <p class="text-justify">En cuanto a las tecnologias o lenguajes que utilice en mis diferentes proyectos, fueron los siguientes:<br><br>
+                    <img class="logos m-2" src="./img/html.png" loading="lazy" alt="Html">
+                    <img class="logos m-2" src="./img/css3.png" loading="lazy" alt="Css3">
+                    <img class="logos m-2" src="./img/js.png" loading="lazy" alt="Javascript">
+                    <img class="logos m-2" src="./img/csharp.png" loading="lazy" alt="C#">
+                    <img class="logos m-2" src="./img/framework.png" loading="lazy" alt=".NET Framework">
+                    <img class="logos m-2" src="./img/core.png" loading="lazy" alt=".NET Core">
+                    <img class="logos m-2" src="./img/sql.png" loading="lazy" alt="SQL Server">
+                    <img class="logos m-2" src="./img/git.png" loading="lazy" alt="Git">
                   </p>
                 </section>
-                <a class="btn btn-primary btn-sm mt-4" href="#principio">Volver al Inicio<i class="fa-solid fa-circle-up ms-2"></i></a>  
+                <a class="btn btn-primary btn-sm mt-4" title="Inicio" href="#principio">Volver al Inicio<i class="fa-solid fa-circle-up ms-2"></i></a>  
               </div>
             </div>
           </div>       
@@ -245,8 +245,8 @@
     <!--Footer-->
     <footer class="espacio_footer bg-dark text-center"> 
       <span class="text-center">
-        <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
-        <a href="https://github.com/Sabrina196" target="_blank"><i class="fa-brands fa-lg fa-github"></i></i></a>
+        <a class="me-3" href="https://www.linkedin.com/in/sabrinapatri96/" title="logoLinkedin" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a>
+        <a href="https://github.com/Sabrina196" title="logoGithub" target="_blank"><i class="fa-brands fa-lg fa-github"></i></a>
       </span>
     </footer>
 

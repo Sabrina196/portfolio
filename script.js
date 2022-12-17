@@ -7,11 +7,13 @@ let caja2= document.querySelector(".caja2");
 let caja3= document.querySelector(".caja3");
 
 
-
+//Evento Click de los botones del div Contenedor4
 btnAcademico.addEventListener("click", mostrarDiv);
 btnIntereses.addEventListener("click", mostrarDiv);
 btnHabilidades.addEventListener("click", mostrarDiv);
 
+
+//Función para mostrar y ocultar las secciones del Contenedor4
 function mostrarDiv(){
     let seleccionado= this.value;
     if(seleccionado == 1)
