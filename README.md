@@ -7,6 +7,6 @@ El mismo esta realizado con:
 - CSS3
 - Bootstrap v5.1.1
 - Javascript
-- Links Adicionales:       
-[Fontawesome](htthttps://kit.fontawesome.com/d73c5ff364.jsp:// "Fontawesome")
-[Google Fonts](https://fonts.google.com/knowledge "Google Fonts")
+- Links Adicionales:  
+	2. [Fontawesome](htthttps://kit.fontawesome.com/d73c5ff364.jsp:// "Fontawesome")
+	1. [Google Fonts](https://fonts.google.com/knowledge "Google Fonts")
