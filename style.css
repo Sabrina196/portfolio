@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(9, 32, 63, 0.7) 0%, rgba(83, 120, 149, 0.7) 200%), url(./img/portada2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center center;
+}
+
+main{
+    color: #fff;
+    background: #222;    
+}
+
+p{
+    font-size: large;
+}
+
+section li {
+    font-weight: bold;
+}
+
+/*Caja1: Presentación*/
+.centrado{
+    margin: 20vh auto; 
+}
+
+/*Ola*/
+.wave {
+    height: 200px; 
+    overflow: hidden;
+}
+svg {
+    height: 100%; 
+    width: 100%;
+}
+
+path {
+    stroke: none; 
+    fill: #222;
+}
+
+/*Cajas con Carrousel*/
+.filaDisenio{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+
+/*Colores de Fondo*/
+.fondoOscuro{
+    background: #222;
+}
+
+.fondoColor {
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+
+
+/*Items*/
+.items{
+    display:inline-block;
+    width: auto;
+}
+
+/*Imagenes*/
+.imgPerfil{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.imgDisenio{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.imgCarrousel{
+    height: 400px;
+    object-fit: contain;
+}
+
+
+
+
+/*Acerca de Mi: caja diseño*/
+.cajaDisenio{
+    border-radius: 10px;
+    box-shadow: 11px 6px 19px -4px rgba(29,37,194,0.39);
+    -webkit-box-shadow: 11px 6px 19px -4px rgba(29,37,194,0.39);
+    -moz-box-shadow: 11px 6px 19px -4px rgba(29,37,194,0.39);
+}
+
+/*Logos*/
+.logos{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/*Cajas ocultas*/
+.caja2, .caja3{
+    display: none;
+}
+
+
+/*Footer*/
+.espacio_footer {
+    padding: 8px 0;
+}
+
